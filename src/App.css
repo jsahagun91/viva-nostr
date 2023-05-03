@@ -35,3 +35,28 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+@media (max-width: 615px) {
+  /* .card {
+    flex-direction: column;
+  }
+ 
+  .row-item {
+    margin-top: 1%;
+  } */
+ 
+  .card {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1%;
+    overflow: hidden; 
+  }
+
+  .card p {
+    /* any paragraph inside the card will inherit the overflow property */
+    margin: 10px;
+    font-size: .75em;
+    line-height: 1.5;
+    white-space: pre-wrap; /* break lines on spaces, tabs, and newlines */
+    word-wrap: break-word; /* break long words if necessary */
+  }
+ }
